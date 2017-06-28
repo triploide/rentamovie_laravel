@@ -1,6 +1,8 @@
 <?php
 
 use App\Actor;
+use App\Genre;
+use App\Movie;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,4 +62,49 @@ Route::post('actors/create', 'ActorsController@store');
 Route::get('actors/{id}/update', 'ActorsController@edit');
 Route::put('actors/{id}/update', 'ActorsController@update');
 Route::delete('actors/{id}', 'ActorsController@destroy');
+
+
+Route::get('practica/eloquent/relaciones', function () {
+	
+	$genre = Genre::find(5);
+	echo '<p>'. $genre->name .'</p>';
+	$movies = $genre->movies()->where('title', 'like', 'La%')->get();
+	foreach($movies as $movie) {
+		$actores = $movie->actors()->pluck('first_name')->implode(', ');
+		echo $movie->title . ' : '.$actores. '<br>';
+	}
+	echo "<hr>";
+
+});
+
+Route::get('practica/eloquent/relaciones2', function () {
+
+	$genre = Genre::find(3);
+	$movie = Movie::find(25);
+
+	/*
+	Asignar un genero a una pelicula
+	$movie->genre()->associate($genre);
+	//$movie->genre()->dissociate();
+	$movie->save();
+	*/
+	//$amigo = Amigo::create([]);
+	//$user->amigos()->save($amigo);
+
+	//agrego una pelicula a un genero
+	//$genre->movies()->save($movie);
+
+	//Agrego muchas pelicuas a un genero
+	//$movies = Movie::whereIn('id', [22, 23, 24])->get();
+	//$genre->movies()->saveMany($movies);
+
+	//tablas de n a n
+	$movie->actors()->sync([]);
+
+	echo "¡Bien!";
+
+	//ESTO ESTA MAL
+	//$movie = Movie::where('id', 1)->limit(1)->get();
+	//$movie->title;
+});
 

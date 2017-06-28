@@ -50,10 +50,14 @@ Route::get('ejemplo/eloquent/actores', 'EloquentController@actores');
 Route::get('practica/RequestController', 'Practica\RequestController@guardar');
 
 //-------
-Route::get('actor', 'ActorsController@index');
-Route::get('actor/{id}', 'ActorsController@show');
-Route::get('actor/create', 'ActorsController@create');
-Route::post('actor/create', 'ActorsController@store');
-Route::get('actor/{id}/update', 'ActorsController@edit');
-Route::put('actor/{id}/update', 'ActorsController@update');
+
+Route::get('actors', 'ActorsController@index');
+Route::get('actors/{id}', 'ActorsController@show');
+
+
+Route::get('actors/create', 'ActorsController@create');
+Route::post('actors/create', 'ActorsController@store');
+Route::get('actors/{id}/update', 'ActorsController@edit');
+Route::put('actors/{id}/update', 'ActorsController@update');
+Route::delete('actors/{id}', 'ActorsController@destroy');
 

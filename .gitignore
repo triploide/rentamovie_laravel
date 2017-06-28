@@ -2,10 +2,12 @@
 /public/hot
 /public/storage
 /storage/*.key
-
+/vendor
 /.idea
 /.vagrant
 Homestead.json
 Homestead.yaml
 npm-debug.log
 .env
+rentamovie_laravel.sublime-project
+rentamovie_laravel.sublime-workspace

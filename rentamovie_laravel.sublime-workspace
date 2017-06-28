@@ -283,42 +283,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Actor.php",
-			"settings":
-			{
-				"buffer_size": 257,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 1407,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/EloquentController.php",
-			"settings":
-			{
-				"buffer_size": 533,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/actores.blade.php",
-			"settings":
-			{
-				"buffer_size": 238,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -374,24 +338,41 @@
 	[
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views"
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Providers",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor"
 	],
 	"file_history":
 	[
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/pelicula.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase1/conn.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/routes/web.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Pelicula.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/BladeController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.gitignore",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/agregarPelicula.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/PeliculasController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Movie.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/routes/web.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/pelicula.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/config/app.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en/validation.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/RequestController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EjemploController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/practica/blade/templates.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/practica/blade/index.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Auth/ForgotPasswordController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/symfony/routing/Route.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Actor.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/actores.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EloquentController.php",
+		"/home/digitalhouse/Escritorio/php/tm/pdo/clase1/conn.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Pelicula.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env.example",
 		"/media/digitalhouse/STORE N GO/DH/Clase 03/laravel-database.sql",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/PeliculasController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/agregarPelicula.blade.php",
 		"/media/digitalhouse/STORE N GO/DH/Clase 03/crearPelicula.html",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/index.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EjemploController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/master.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/templates.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/_titulo.blade.php",
@@ -492,21 +473,7 @@
 		"/home/digitalhouse/Escritorio/php/tm/oop/Usuario.php",
 		"/home/digitalhouse/Escritorio/php/tm/oop/type-hinting.php",
 		"/home/digitalhouse/Escritorio/php/tm/oop/Auto.php",
-		"/home/digitalhouse/Escritorio/php/facebook.php",
-		"/home/digitalhouse/Escritorio/php/usuario.php",
-		"/home/digitalhouse/Escritorio/php/autitos.php",
-		"/home/digitalhouse/Escritorio/php/tt obj/tamagochi.php",
-		"/home/digitalhouse/Escritorio/php/tamagotchi.php",
-		"/home/digitalhouse/Escritorio/php/imprimibles.php",
-		"/home/digitalhouse/Escritorio/php/comidarapida.php",
-		"/home/digitalhouse/Escritorio/php/tt obj/ticket.php",
-		"/home/digitalhouse/Escritorio/php/silla.php",
-		"/home/digitalhouse/Escritorio/coneccion.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase2/conn.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase2/transaction.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase2/biding-por-referencia.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase2/binding.php",
-		"/home/digitalhouse/Escritorio/php/tm/pdo/clase1/practica.php"
+		"/home/digitalhouse/Escritorio/php/facebook.php"
 	],
 	"find":
 	{
@@ -582,125 +549,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Actor.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 257,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 174.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1407,
-								1407
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/EloquentController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								445,
-								445
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 261.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/actores.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								194,
-								194
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -754,15 +604,67 @@
 		[
 			[
 				"pelicu",
+				"resources/views/agregarPelicula.blade.php"
+			],
+			[
+				"pelicul",
+				"app/Http/Controllers/PeliculasController.php"
+			],
+			[
+				"movi",
+				"app/Movie.php"
+			],
+			[
+				"rw",
+				"routes/web.php"
+			],
+			[
+				"agre",
+				"resources/views/agregarPelicula.blade.php"
+			],
+			[
+				"peli",
+				"app/Http/Controllers/PeliculasController.php"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"controller",
+				"vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+			],
+			[
+				"agr",
+				"resources/views/agregarPelicula.blade.php"
+			],
+			[
+				"peliculaco",
+				"app/Http/Controllers/PeliculasController.php"
+			],
+			[
+				"index.bl",
+				"resources/views/index.blade.php"
+			],
+			[
+				"ejemplo",
+				"app/Http/Controllers/EjemploController.php"
+			],
+			[
+				"peliculacon",
+				"app/Http/Controllers/PeliculasController.php"
+			],
+			[
+				"rout",
+				"vendor/symfony/routing/Route.php"
+			],
+			[
+				"pelicua",
 				"resources/views/pelicula.blade.php"
 			],
 			[
 				"eloque",
 				"app/Http/Controllers/EloquentController.php"
-			],
-			[
-				"rw",
-				"routes/web.php"
 			],
 			[
 				"pelicual",
@@ -771,14 +673,6 @@
 			[
 				"ejem",
 				"app/Http/Controllers/EjemploController.php"
-			],
-			[
-				"ejemplo",
-				"app/Http/Controllers/EjemploController.php"
-			],
-			[
-				"pelicua",
-				"app/Http/Controllers/PeliculasController.php"
 			],
 			[
 				"maser",
@@ -884,8 +778,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 283.0,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

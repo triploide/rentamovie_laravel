@@ -20,6 +20,19 @@ Route::get('/', function () {
     //return '<h1>hola</h1><p>mundo</p>';
 });
 
+Route::get('collections', function () {
+    $array = [
+    	['nombre'=>'Fran', 'edad'=>17],
+    	['nombre'=>'Daniel', 'edad'=>44],
+    	['nombre'=>'Nico', 'edad'=>34]
+    ];
+    $collection = collect($array);
+    $newCollection = $collection->filter(function ($item){
+    	return $item['edad'] >= 18;
+    });
+    dd($newCollection);
+});
+
 /*
 Route::get('peliculas/{pagina}', function ($pagina) {
     //return view('welcome');
@@ -51,11 +64,12 @@ Route::get('ejemplo/eloquent/actores', 'EloquentController@actores');
 
 Route::get('practica/RequestController', 'Practica\RequestController@guardar');
 
+Route::get('practica/colecciones', 'Practica\CollecionesController@test');
+
 //-------
 
 Route::get('actors', 'ActorsController@index');
 Route::get('actors/{id}', 'ActorsController@show');
-
 
 Route::get('actors/create', 'ActorsController@create');
 Route::post('actors/create', 'ActorsController@store');
@@ -107,4 +121,11 @@ Route::get('practica/eloquent/relaciones2', function () {
 	//$movie = Movie::where('id', 1)->limit(1)->get();
 	//$movie->title;
 });
+
+//----------------------------------------
+
+Route::get('admin/peliculas', 'Admin\PeliculasController@index');
+Route::get('admin/peliculas/create', 'Admin\PeliculasController@create');
+Route::post('admin/peliculas/create', 'Admin\PeliculasController@store');
+Route::get('admin/peliculas/{id}', 'Admin\PeliculasController@show');
 

@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Movie extends Model
 {
-    //protected $fillable = ['title', 'rating'];
+    protected $fillable = ['title', 'rating', 'awards', 'release_date', 'length'];
     
-    protected $guarded = ['id', 'created_at', 'updated_at'];
+    //protected $guarded = ['id', 'created_at', 'updated_at'];
 
     public function genre()
     {

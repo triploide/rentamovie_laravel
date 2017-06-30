@@ -9,4 +9,5 @@ class Pelicula extends Model
 	protected $table = 'pelicula';
 
 	public $timestamps = false;
+
 }

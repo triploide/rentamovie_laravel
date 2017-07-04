@@ -129,3 +129,16 @@ Route::get('admin/peliculas/create', 'Admin\PeliculasController@create');
 Route::post('admin/peliculas/create', 'Admin\PeliculasController@store');
 Route::get('admin/peliculas/{id}', 'Admin\PeliculasController@show');
 
+
+//-----------
+
+Route::get('factory', function () {
+	factory(App\Movie::class, 5)->create()->each(function ($m) {
+		$actors = factory(App\Actor::class, 3)->make();
+		$m->actors()->saveMany($actors);
+	});
+	$movie = Movie::find(36);
+	dd($movie->actors->toArray());
+	//return 'Bien';
+});
+

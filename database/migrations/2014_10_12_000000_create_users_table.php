@@ -20,6 +20,15 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+
+            /*
+            $table->tinyInteger('pelicula_id');
+
+            $table->foreign('pelicula_id')
+                ->references('id')->on('pelicula')
+                ->onDelete('cascade');
+            */
+
         });
     }
 

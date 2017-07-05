@@ -291,6 +291,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/views/errors/404.blade.php",
+			"settings":
+			{
+				"buffer_size": 132,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 2044,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -345,16 +363,33 @@
 	"expanded_folders":
 	[
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/factories",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/seeds"
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/seeds",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/vendor",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/vendor/notifications"
 	],
 	"file_history":
 	[
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Kernel.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Middleware/MaxiMiddleware.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env.example",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/layouts/app.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en/pagination.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en/auth.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Auth/RegisterController.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/auth/register.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/admin/peliculas/index.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/routes/web.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/auth/login.blade.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en/validation.php",
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Auth/LoginController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/seeds/GenresTableSeeder.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/storage/logs/laravel.log",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/routes/web.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/factories/ModelFactory.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/seeds/DatabaseSeeder.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Providers/AppServiceProvider.php",
@@ -368,8 +403,6 @@
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/config/filesystems.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/admin/peliculas/show.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/actors/show.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env.example",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/admin/peliculas/create.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Movie.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Pelicula.php",
@@ -380,14 +413,12 @@
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/admin/peliculas",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Genre.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Actor.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env",
 		"/home/digitalhouse/Escritorio/php/tm/pdo/clase1/conn.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/BladeController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.gitignore",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/pelicula.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/config/app.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en/validation.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/RequestController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EjemploController.php",
@@ -469,21 +500,11 @@
 		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Editable.php",
 		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Post.php",
 		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/ejemplo1.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplo-nunca-hacer.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplos3/archivo1.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplos3/archivo2.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplos3/home.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejeplos2/test.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejeplos2/archivo2.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejeplos1/home.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/archivo1.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/home.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/archivo2.php",
-		"/home/digitalhouse/Escritorio/pruebapractica.php"
+		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplo-nunca-hacer.php"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -497,6 +518,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Test",
 			"1",
 			"\t\n",
 			"();\n",
@@ -557,14 +579,76 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/views/errors/404.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -601,7 +685,7 @@
 	"project": "rentamovie_laravel.json",
 	"replace":
 	{
-		"height": 70.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -611,12 +695,28 @@
 		"selected_items":
 		[
 			[
-				"laravel",
-				"storage/logs/laravel.log"
+				"kern",
+				"app/Http/Kernel.php"
+			],
+			[
+				"pelicul",
+				"app/Http/Controllers/Admin/PeliculasController.php"
+			],
+			[
+				"peliin",
+				"resources/views/admin/peliculas/index.blade.php"
+			],
+			[
+				"peliculacon",
+				"app/Http/Controllers/Admin/PeliculasController.php"
 			],
 			[
 				"rw",
 				"routes/web.php"
+			],
+			[
+				"laravel",
+				"storage/logs/laravel.log"
 			],
 			[
 				"appserv",
@@ -649,10 +749,6 @@
 			[
 				"movie",
 				"app/Movie.php"
-			],
-			[
-				"pelicul",
-				"app/Pelicula.php"
 			],
 			[
 				"peliculaco",
@@ -701,10 +797,6 @@
 			[
 				"ejemplo",
 				"app/Http/Controllers/EjemploController.php"
-			],
-			[
-				"peliculacon",
-				"app/Http/Controllers/PeliculasController.php"
 			],
 			[
 				"rout",
@@ -831,7 +923,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 283.0,
+	"side_bar_width": 405.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

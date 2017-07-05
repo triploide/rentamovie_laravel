@@ -5,9 +5,17 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Movie;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PeliculasController extends Controller
 {
+
+    public function __construct()
+    {
+        //$this->middleware('auth');
+        $this->middleware('maxi');
+    }
+
     public function index()
     {
     	$movies = Movie::paginate(10);

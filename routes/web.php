@@ -49,10 +49,11 @@ Route::get('peliculas/{pagina?}', function ($pagina=1) {
 
 Route::get('peliculas/{pagina?}', 'TestController@peliculas');
 */
-
+/*
 Route::get('practica/blade/ejemplo-1', 'Practica\BladeController@ejemplo');
 Route::get('ejemplo/blade', 'EjemploController@blade');
 Route::get('ejemplo/extension', 'EjemploController@extension');
+
 
 Route::get('peliculas/{id}', 'PeliculasController@buscarPeliculaId');
 
@@ -65,7 +66,7 @@ Route::get('ejemplo/eloquent/actores', 'EloquentController@actores');
 Route::get('practica/RequestController', 'Practica\RequestController@guardar');
 
 Route::get('practica/colecciones', 'Practica\CollecionesController@test');
-
+*/
 //-------
 
 Route::get('actors', 'ActorsController@index');
@@ -142,3 +143,7 @@ Route::get('factory', function () {
 	//return 'Bien';
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -291,24 +291,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "resources/views/errors/404.blade.php",
-			"settings":
-			{
-				"buffer_size": 132,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Kernel.php",
-			"settings":
-			{
-				"buffer_size": 2044,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -363,17 +345,17 @@
 	"expanded_folders":
 	[
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/factories",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/database/seeds",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/lang/en",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/vendor",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/vendor/notifications"
 	],
 	"file_history":
 	[
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/errors/404.blade.php",
+		"/home/digitalhouse/Escritorio/EJEMPLITO DE PELICUALS ACTORES (MUCHOS A MUCHOS)",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Kernel.php",
+		"/home/digitalhouse/Escritorio/joins.sql",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Middleware/MaxiMiddleware.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env.example",
@@ -497,10 +479,7 @@
 		"/home/digitalhouse/Escritorio/php/tm/oop/test/datos.json",
 		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Comment.php",
 		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Sharable.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Editable.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Post.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/ejemplo1.php",
-		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/ejemplo-nunca-hacer.php"
+		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Editable.php"
 	],
 	"find":
 	{
@@ -579,70 +558,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "resources/views/errors/404.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 132,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								112
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Kernel.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2044,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								531,
-								531
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 75.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

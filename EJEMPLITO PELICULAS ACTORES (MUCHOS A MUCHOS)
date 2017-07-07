@@ -1,0 +1,6 @@
+SELECT * FROM peliculas p
+INNER JOIN actor_peliculas ap
+INNER JOIN actores a
+ON p.id = ap.id_pelicula
+AND a.id = ap.id_actor
+ORDER BY p.titulo, a.apellido

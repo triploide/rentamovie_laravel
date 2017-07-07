@@ -147,3 +147,8 @@ Route::get('factory', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('practica/api', 'Practica\ApiController@index');
+
+Route::get('practica/curl', 'Practica\ApiController@curl');
+

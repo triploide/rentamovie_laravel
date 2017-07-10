@@ -79,7 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel ddd
+                </div>
+
+                <div id="example">
+                    
                 </div>
 
                 <div class="links">
@@ -91,5 +95,6 @@
                 </div>
             </div>
         </div>
+        <script src="/js/app.js"></script>
     </body>
 </html>

@@ -148,15 +148,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//----------------
-//----Test Api----
-//----------------
+Route::get('practica/api', 'Practica\ApiController@index');
 
-Route::get('api', function () {
-    return view('practica.api.index');
-});
-
-Route::get('react', function () {
-    return view('practica.react.index');
-});
+Route::get('practica/curl', 'Practica\ApiController@curl');
 

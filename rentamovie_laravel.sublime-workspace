@@ -291,6 +291,7 @@
 	},
 	"buffers":
 	[
+
 		{
 			"file": "resources/assets/js/components/Example.js",
 			"settings":
@@ -299,6 +300,7 @@
 				"line_ending": "Unix"
 			}
 		}
+
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -389,6 +391,7 @@
 		"/opt/lampp/htdocs/rentamovie_laravel/app/Providers/AppServiceProvider.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/errors/404.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Kernel.php",
+		"/home/digitalhouse/Escritorio/joins.sql",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Middleware/MaxiMiddleware.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.env.example",
@@ -493,7 +496,26 @@
 		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/classes/ValidadorRegistro.php",
 		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/controllers/registro.controller.php",
 		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/helpers/usuario.helper.php",
-		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/classes/ValidacionRegistro.php"
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/classes/ValidacionRegistro.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/ValidacionRegistro.php",
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/validators/registro.validator.php",
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/classes/ValidacionLogin.php",
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/classes/Validador.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/home.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/JSONDB.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/Usuario.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/controllers/login.controller.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/datos.json",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/Validacion.php",
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/validators/login.validator.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/Model.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/proyecto/php/classes/DB.php",
+		"/home/digitalhouse/Escritorio/php/tm/php/rentamovie/php/config.default.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/test/classes/DB.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/test/datos.json",
+		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Comment.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Sharable.php",
+		"/home/digitalhouse/Escritorio/php/tm/oop/clase3/traits/Editable.php"
 	],
 	"find":
 	{
@@ -575,6 +597,7 @@
 	"groups":
 	[
 		{
+
 			"selected": 0,
 			"sheets":
 			[
@@ -606,6 +629,7 @@
 					"stack_index": 0,
 					"type": "text"
 				}
+
 			]
 		}
 	],

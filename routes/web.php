@@ -147,3 +147,16 @@ Route::get('factory', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//----------------
+//----Test Api----
+//----------------
+
+Route::get('api', function () {
+    return view('practica.api.index');
+});
+
+Route::get('react', function () {
+    return view('practica.react.index');
+});
+

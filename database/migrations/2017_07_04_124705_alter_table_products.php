@@ -15,7 +15,7 @@ class AlterTableProducts extends Migration
     {
         Schema::table('products', function (Blueprint $table) {
             $table->dropColumn('price');
-            $table->string('slug', 255)->change();
+            //$table->string('slug', 255)->change(); ojo con los change, no es algo que funcione muy bien el laravel
             $table->renameColumn('name', 'title');
         });
     }

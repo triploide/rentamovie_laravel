@@ -152,3 +152,7 @@ Route::get('practica/api', 'Practica\ApiController@index');
 
 Route::get('practica/curl', 'Practica\ApiController@curl');
 
+//--------------------------------------------------------------------------------
+
+Route::get('peliculas', 'MovieController@index');
+

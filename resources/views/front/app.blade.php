@@ -39,7 +39,7 @@
             <!-- main-container start -->
             <!-- ================ -->
             <section class="main-container">
-
+                @yield('banner')
                 <div class="container">
                     <div class="row">
                         @yield('content')

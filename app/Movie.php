@@ -23,4 +23,9 @@ class Movie extends Model
     {
     	return $this->belongsToMany('App\Actor');
     }
+
+    public function scopeWithGenre($query)
+    {
+        $query->join('genres', 'movies.genre_id', '=', 'genres.id');
+    }
 }

@@ -1,0 +1,80 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.4.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+html {overflow-x: hidden !important}
+
+/**/
+.series-card-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 25px 25px 20px;
+    width: 100%;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    z-index: 10;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(0,0,0,.7);
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.blogpost.temporada {
+    margin-bottom: 20px;
+}
+
+.image-cover {
+    height:205px;
+    width: 100vw;
+    background-position:left top;
+    background-image:url(images/header.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    margin-bottom: 30px
+}
+
+.temporada-container  {
+    padding-bottom: 70px
+}
+
+.header-dropdown-buttons .btn-group > .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    padding: 0 8px;
+    line-height: auto;
+}
+
+.login-form li {list-style: none}
+
+.dropdown > a.dropdown-user {text-decoration: none}
+.dropdown > a.dropdown-user:before {content: ""; display: none}
+.dropdown-user span {font-size: 16px; margin-right: 10px; color: #dc5b5b; cursor: pointer;}
+.dropdown-user .avatar {    
+    border-radius: 100%; width: 40px; height: 40px; padding: 0; display: inline-block;
+}
+.header-dropdown-buttons .btn-group .dropdown-menu {margin-top: 17px}

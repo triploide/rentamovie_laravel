@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 class PeliculasController extends Controller
 {
     
-
     public function buscarPeliculaId($id)
     {
     	$peliculas = [
@@ -57,4 +56,5 @@ class PeliculasController extends Controller
         $movie = Movie::orderBy('id', 'desc')->first();
         $movie->delete();
     }
+
 }

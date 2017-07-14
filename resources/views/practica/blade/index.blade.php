@@ -1,4 +1,4 @@
-@extends('master')
+@extends('practica.blade.master')
 
 @section('titulo', 'Nuevo Título') 
 

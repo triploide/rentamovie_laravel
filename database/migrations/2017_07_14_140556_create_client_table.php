@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AlterTableUser extends Migration
+class CreateClientTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class AlterTableUser extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('api_token', 60)->unique();
+        Schema::create('clients', function (Blueprint $table) {
+            $table->mediumIncrements('id');
+            $table->string('first_name', 100);
+            $table->string('last_name', 100);
+            $table->string('email', 100);
+            $table->timestamps();
         });
     }
 
@@ -25,6 +29,6 @@ class AlterTableUser extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('clients');
     }
 }

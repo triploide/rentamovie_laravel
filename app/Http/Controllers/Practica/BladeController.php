@@ -7,19 +7,19 @@ use Illuminate\Http\Request;
 
 class BladeController extends Controller
 {
-    public function ejemplo()
+    public function pasarParametros()
     {
-    	return view('practica.blade.ejemplo', ['usuario' => 'Juan']);
+    	return view('practica.blade.conParametros', ['usuario' => 'Juan']);
     }
 
-    public function blade()
+    public function forelse()
     {
     	$errores = ['Error 1', 'Error 2'];
-    	//return  view('templates', ['errores' => $errores]);
-    	return  view('practica.blade.templates', compact('errores'));
+    	//return  view('practica.blade.forelse', ['errores' => $errores]); esto es igual a la línea de abajo
+    	return  view('practica.blade.forelse', compact('errores'));
     }
 
-    public function extension()
+    public function herencia()
     {
         return view('practica.blade.index');
     }

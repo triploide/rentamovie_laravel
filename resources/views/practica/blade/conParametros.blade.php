@@ -6,6 +6,6 @@
 </head>
 <body>
 	<h1>Ejemplo</h1>
-	<p>Hola <?php echo($usuario); ?></p>
+	<p>Hola {{$usuario}}</p>
 </body>
 </html>

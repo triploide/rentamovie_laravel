@@ -1,12 +1,14 @@
+@php
+    $genres = \App\Genre::orderBy('name')->get();
+@endphp
 <div class="block clearfix">
-    <h3 class="title">Categorías</h3>
+    <h3 class="title">Géneros</h3>
     <div class="separator-2"></div>
     <nav>
         <ul class="nav nav-pills nav-stacked">
-            <li><a href="#">Acción</a></li>
-            <li><a href="#">Ciencia Ficción</a></li>
-            <li><a href="#">Comedia</a></li>
-            <li><a href="#">Drama</a></li>
+            @foreach ($genres as $genre)
+                <li><a href="/genero/{{$genre->id}}">{{$genre->name}}</a></li>
+            @endforeach
         </ul>
     </nav>
 </div>

@@ -78,3 +78,49 @@ html {overflow-x: hidden !important}
     border-radius: 100%; width: 40px; height: 40px; padding: 0; display: inline-block;
 }
 .header-dropdown-buttons .btn-group .dropdown-menu {margin-top: 17px}
+
+/*pagination*/
+ul.pagination li.active span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    color: #ffffff;
+    background-color: #dc5b5b;
+    border-color: #dc5b5b;
+}
+
+ul.pagination li > span,
+.pagination > li:first-child > span,
+.pagination > li:last-child > span
+ul.pager li > span {
+  text-align: center;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #777777;
+  line-height: 39px;
+  background-color: #777777;
+  color: #ffffff;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+ul.pagination li > span, .pagination > li:first-child > span, .pagination > li:last-child > span, ul.pager li > span {
+    text-align: center;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #777777;
+    line-height: 39px;
+    background-color: #777777;
+    color: #ffffff;
+    display: inline-block;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+/*announcement*/
+#announcement {display: none}
+.announcement-fixed {
+    position: fixed; z-index: 5000; width: 100%;
+}

@@ -1,5 +1,19 @@
 <!-- header-container start -->
 <div class="header-container">
+
+    <div id="announcement" class="announcement announcement-fixed bg-success">
+        <div class="container">
+            <div class="margin-clear alert alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
                     
     <!-- header start -->
     <!-- ================ --> 
@@ -14,7 +28,7 @@
 
                         <!-- logo -->
                         <div id="logo" class="logo">
-                            <a href="/"><img id="logo_img" src="images/logo.png" alt="The Project"></a>
+                            <a href="/"><img id="logo_img" src="/images/logo.png" alt="The Project"></a>
                         </div>
 
                         <!-- name-and-slogan -->

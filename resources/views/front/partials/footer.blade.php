@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="footer-content">
-                            <div class="logo-footer"><img id="logo-footer" src="images/logo.png" alt=""></div>
+                            <div class="logo-footer"><img id="logo-footer" src="/images/logo.png" alt=""></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Ipsa, aut voluptas quaerat... <a href="page-about.html"><br>Seguir leyendo<i class="fa fa-long-arrow-right pl-5"></i></a></p>
                             <div class="separator-2"></div>
                             

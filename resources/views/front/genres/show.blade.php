@@ -1,12 +1,13 @@
 @extends('front.app')
 
-@section('title', 'Listado de películas')
+@section('title', $genre->name)
 
-@section('description', 'Listado de películas')
+@section('description', $genre->name)
 
 @section('breadcrumb')
     <li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
-    <li class="active">Películas</li>
+    <li>Géneros</li>
+    <li class="active">{{$genre->name}}</li>
 @endsection
 
 @section('content')
@@ -14,7 +15,7 @@
 
         <!-- page-title start -->
         <!-- ================ -->
-        <h1 class="page-title">Películas - Todas</h1>
+        <h1 class="page-title">{{$genre->name}}</h1>
         <div class="separator-2"></div>
         <!-- page-title end -->
 

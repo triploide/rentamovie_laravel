@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"fore",
+				"foreach\tblade-foreach"
+			],
+			[
+				"para",
+				"$parametro2〔variable〕"
+			],
+			[
+				"ke",
+				"keyBy"
+			],
+			[
+				"key",
+				"$keyByNombre〔variable〕"
+			],
+			[
+				"cole",
+				"$collection〔variable〕"
+			],
+			[
 				"end",
 				"endsection"
 			],
@@ -353,19 +373,70 @@
 	"expanded_folders":
 	[
 		"/opt/lampp/htdocs/rentamovie_laravel",
-		"/opt/lampp/htdocs/rentamovie_laravel/app/Http",
 		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers",
-		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/React",
-		"/opt/lampp/htdocs/rentamovie_laravel/public",
-		"/opt/lampp/htdocs/rentamovie_laravel/public/js",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/seeds",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/assets",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/assets/js",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/assets/js/components",
-		"/opt/lampp/htdocs/rentamovie_laravel/tests"
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/api",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/vendor/pagination"
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/GenreController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/genres/show.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/routes/web.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials/head.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials/scripts.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/node_modules/react/dist/react-with-addons.js",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/MovieController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/aside/categorias.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Category.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Movie.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/movies/_blogpost.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/movies/index.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/public/css/custom.css",
+		"/opt/lampp/htdocs/rentamovie_laravel/config/app.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/vendor/pagination/default.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/admin/peliculas/index.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130903_create_episodes_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130842_create_series_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/seeds/RealDataSeeder.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_14_141704_create_items_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130913_create_actors_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130820_create_genres_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130829_create_movies_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Providers/AppServiceProvider.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_14_141316_create_purchases_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_14_140556_create_client_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130925_create_actor_movie_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2016_10_17_130938_create_actor_episode_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/.env",
+		"/media/maxi/STORE N GO/rentamovie/seeds/DatabaseSeeder.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/seeds/DatabaseSeeder.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/seeds/GenresTableSeeder.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_06_233212_alter_table_user.php",
+		"/media/maxi/STORE N GO/rentamovie/migrations/2014_10_12_000000_create_users_table.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_04_124705_alter_table_products.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_04_122605_create_table_products.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/RelacionesController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/index.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/MiscelaneosController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Api/MovieController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/api/index.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/RequestController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/ApiController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/blade/index.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/blade/master.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/BladeController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/blade/forelse.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/blade/conParametros.blade.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/RoutesController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/CollectionController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Practica/HomeController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/TestController.php",
+		"/opt/lampp/htdocs/rentamovie_laravel/.phpintel/0551fb4b5635b43cc64a68e7f36cbed2",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/react/example.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/assets/js/components/Example.js",
 		"/opt/lampp/htdocs/rentamovie_laravel/webpack.mix.js",
@@ -373,23 +444,17 @@
 		"/opt/lampp/htdocs/rentamovie_laravel/public/js/app.js",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/assets/js/components/Example.vue",
 		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/React/ComponentsController.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/routes/web.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/.gitignore",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/movies/index.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/app.blade.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials/head.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials/header.blade.php",
 		"/opt/lampp/htdocs/rentamovie/index.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/partials/header.php",
 		"/opt/lampp/htdocs/rentamovie/peliculas.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/front/aside",
 		"/opt/lampp/htdocs/rentamovie/tpl/aside/buscar.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/MovieController.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/PeliculasController.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_06_233212_alter_table_user.php",
 		"/opt/lampp/htdocs/rentamovie/php/config.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/routes/api.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/api/index.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/rentamovie_laravel.sublime-workspace",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/practica/react/index.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/npm-debug.log",
@@ -400,10 +465,7 @@
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/welcome.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/home.blade.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/database/migrations/2017_07_04_124705_alter_table_products.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/config/auth.php",
-		"/opt/lampp/htdocs/rentamovie_laravel/.env",
-		"/opt/lampp/htdocs/rentamovie_laravel/app/Providers/AppServiceProvider.php",
 		"/opt/lampp/htdocs/rentamovie_laravel/resources/views/errors/404.blade.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Kernel.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Admin/PeliculasController.php",
@@ -449,51 +511,7 @@
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/BladeController.php",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/.gitignore",
 		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/pelicula.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/config/app.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Practica/RequestController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EjemploController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/practica/blade/templates.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/practica/blade/index.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/Auth/ForgotPasswordController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/vendor/symfony/routing/Route.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/actores.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/EloquentController.php",
-		"/media/digitalhouse/STORE N GO/DH/Clase 03/laravel-database.sql",
-		"/media/digitalhouse/STORE N GO/DH/Clase 03/crearPelicula.html",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/index.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/master.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/templates.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/_titulo.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/ejemplo.blade.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/app/Http/Controllers/TestController.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/proyecto/test.php",
-		"/home/digitalhouse/Escritorio/php/tm/laravel/proyecto/composer.json",
-		"/home/digitalhouse/Escritorio/php/tm anual/funciones.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/footer.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/header.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/master.css",
-		"/home/digitalhouse/Escritorio/php/tm anual/register.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/producto.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/embed.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/felicidad.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/login.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/inicio.php",
-		"/home/digitalhouse/Escritorio/dario.html",
-		"/home/digitalhouse/Escritorio/digitalDemo/index.html",
-		"/home/digitalhouse/Escritorio/php/tm anual/articulo.php",
-		"/home/digitalhouse/Escritorio/php/repaso_clase_4.php",
-		"/home/digitalhouse/Escritorio/scripting.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/superglobals.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/procesar.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/formulario.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/include.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/prueba.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/ejemploFunciones.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/ejemploFunciones2.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/ejemploFunciones3.php",
-		"/home/digitalhouse/Escritorio/php/tm anual/ejemploFunciones4.php"
+		"/home/digitalhouse/Escritorio/php/tm/laravel/rentamovie_laravel/resources/views/pelicula.blade.php"
 	],
 	"find":
 	{
@@ -501,9 +519,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 143.0,
 		"where_history":
 		[
+			"/opt/lampp/htdocs/rentamovie_laravel/database/migrations"
 		]
 	},
 	"find_state":
@@ -511,6 +530,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src=\"",
+			"<link href=\"",
+			"en",
+			"slug",
+			"');\n",
+			"'http://lorempixel.com/720/360/'",
 			"include",
 			"<<<",
 			"sublime-",
@@ -559,6 +584,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"src=\"/",
+			"<link href=\"/",
+			"'http://lorempixel.com/720/360/', 10.00",
 			"$datos",
 			"},\n",
 			"'",
@@ -623,7 +651,7 @@
 	"project": "rentamovie_laravel.json",
 	"replace":
 	{
-		"height": 123.0
+		"height": 103.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -632,6 +660,122 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rwe",
+				"routes/web.php"
+			],
+			[
+				"rw",
+				"node_modules/react/dist/react-with-addons.js"
+			],
+			[
+				"movien",
+				"app/Http/Controllers/MovieController.php"
+			],
+			[
+				"movie",
+				"app/Movie.php"
+			],
+			[
+				"_blo",
+				"resources/views/front/movies/_blogpost.blade.php"
+			],
+			[
+				"configapp.php",
+				"config/app.php"
+			],
+			[
+				"moviecon",
+				"app/Http/Controllers/MovieController.php"
+			],
+			[
+				"movie/inde",
+				"resources/views/front/movies/index.blade.php"
+			],
+			[
+				"_blogpost",
+				"resources/views/front/movies/_blogpost.blade.php"
+			],
+			[
+				"movies/ind",
+				"resources/views/front/movies/index.blade.php"
+			],
+			[
+				"peliculas",
+				"resources/views/admin/peliculas/index.blade.php"
+			],
+			[
+				"create_ep",
+				"database/migrations/2016_10_17_130903_create_episodes_table.php"
+			],
+			[
+				"create_se",
+				"database/migrations/2016_10_17_130842_create_series_table.php"
+			],
+			[
+				"realse",
+				"database/seeds/RealDataSeeder.php"
+			],
+			[
+				"reals",
+				"database/seeds/RealDataSeeder.php"
+			],
+			[
+				"creta_a",
+				"database/migrations/2016_10_17_130913_create_actors_table.php"
+			],
+			[
+				"_crate_se",
+				"database/migrations/2016_10_17_130842_create_series_table.php"
+			],
+			[
+				"appsercv",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"rweb",
+				"routes/web.php"
+			],
+			[
+				".",
+				".env"
+			],
+			[
+				"apicon",
+				"app/Http/Controllers/Practica/ApiController.php"
+			],
+			[
+				"misce",
+				"app/Http/Controllers/Practica/MiscelaneosController.php"
+			],
+			[
+				"relac",
+				"app/Http/Controllers/Practica/RelacionesController.php"
+			],
+			[
+				"movie.php",
+				"app/Movie.php"
+			],
+			[
+				"relacione",
+				"app/Http/Controllers/Practica/RelacionesController.php"
+			],
+			[
+				"bla",
+				"app/Http/Controllers/Practica/BladeController.php"
+			],
+			[
+				"practiind",
+				"resources/views/practica/index.blade.php"
+			],
+			[
+				"bladeinde",
+				"resources/views/practica/blade/index.blade.php"
+			],
+			[
+				"practiin",
+				"resources/views/practica/index.blade.php"
+			],
 			[
 				"moviesind",
 				"resources/views/front/movies/index.blade.php"
@@ -642,10 +786,6 @@
 			],
 			[
 				"rweb.php",
-				"routes/web.php"
-			],
-			[
-				"rweb",
 				"routes/web.php"
 			],
 			[
@@ -663,10 +803,6 @@
 			[
 				"rapi",
 				"routes/api.php"
-			],
-			[
-				"rw",
-				"routes/web.php"
 			],
 			[
 				"appser",
@@ -719,10 +855,6 @@
 			[
 				"",
 				".env.example"
-			],
-			[
-				"movie",
-				"app/Movie.php"
 			],
 			[
 				"peliculaco",
@@ -896,8 +1028,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 327.0,
+	"side_bar_visible": false,
+	"side_bar_width": 388.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

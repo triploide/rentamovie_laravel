@@ -3,17 +3,17 @@
     <div class="row grid-space-10">
         <div class="col-md-5">
             <div class="overlay-container">
-                <img src="content/peliculas/720x360/{{$movie->banner}}" alt="">
+                <img src="{{$movie->banner}}?{{$movie->id}}" alt="">
                 <a class="overlay-link" href="pelicula/{{$movie->id}}"><i class="fa fa-link"></i></a>
             </div>
         </div>
         <div class="col-md-7">
             <header>
-                <h2><a href="pelicula/{{$movie->id}}">{{$movie->title}}</a></h2>
+                <h2><a href="pelicula/{{$movie->slug}}">{{$movie->title}}</a></h2>
                 <div class="post-info">
                     <span class="post-date">
                         <i class="icon-calendar"></i>
-                        {{$movie->release_date}}
+                        {{$movie->release_date->formatLocalized('%A %d de %B de %Y')}}
                     </span>
                     <span class="comments"><i class="icon-tag-1"></i> <a href="#"
                     >{{$movie->genre->name}}</a></span>

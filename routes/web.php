@@ -59,9 +59,21 @@ Route::get('practica/miscelaneos/api', 'Practica\MiscelaneosController@api');
 //---FRONT---
 //-----------
 
-//peliculas
+//géneros
+Route::get('genero/{id}', 'GenreController@show');
+
+//películas
 Route::get('peliculas', 'MovieController@index');
-Route::get('pelicula', 'MovieController@show');
+Route::get('pelicula/{slug}', 'MovieController@show');
+
+Route::get('session/test/{id}', function ($id) {
+
+    $carrito = session('cart');
+    if (!in_array($id, $carrito)) {
+        session()->push('cart', $id);
+    }
+    var_dump( session('cart') );
+});
 
 //----------------------------------------
 
@@ -69,7 +81,7 @@ Route::get('pelicula', 'MovieController@show');
 //---ADMIN---
 //-----------
 
-//peliculas
+//películas
 Route::get('admin/peliculas', 'Admin\PeliculasController@index');
 Route::get('admin/peliculas/create', 'Admin\PeliculasController@create');
 Route::post('admin/peliculas/create', 'Admin\PeliculasController@store');

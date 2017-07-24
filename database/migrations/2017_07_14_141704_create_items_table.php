@@ -18,6 +18,7 @@ class CreateItemsTable extends Migration
             $table->float('price',8,2);
             $table->smallInteger('movie_id')->unsigned()->nullable()->index(); //product - movie
             $table->mediumInteger('episode_id')->unsigned()->nullable()->index(); //product - episode
+            $table->mediumInteger('purchase_id')->unsigned()->nullable()->index(); //product - episode
             $table->timestamps();
         });
     }

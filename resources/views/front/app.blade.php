@@ -9,6 +9,7 @@
         <meta charset="utf-8">
         <title>@yield('title') - Rentamovvie</title>
         <meta name="description" content="@yield('description', 'Mirá todas las películas y series desde la comodidad de tu casa. Rent a movie, compartiendo momentos.')">
+        <meta name="_token" content="{{csrf_token()}}">
         @include("front.partials.head")
         @yield('head')
     </head>

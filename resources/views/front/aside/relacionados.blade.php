@@ -4,7 +4,7 @@
     <div class="media margin-clear">
         <div class="media-left">
             <div class="overlay-container">
-                <img class="media-object" src="content/series/237x147/alf.jpg" alt="blog-thumb">
+                <img class="media-object" src="/content/series/237x147/alf.jpg" alt="blog-thumb">
                 <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
             </div>
         </div>
@@ -17,7 +17,7 @@
     <div class="media margin-clear">
         <div class="media-left">
             <div class="overlay-container">
-                <img class="media-object" src="content/series/237x147/mac-gyver.jpg" alt="blog-thumb">
+                <img class="media-object" src="/content/series/237x147/mac-gyver.jpg" alt="blog-thumb">
                 <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
             </div>
         </div>
@@ -30,7 +30,7 @@
     <div class="media margin-clear">
         <div class="media-left">
             <div class="overlay-container">
-                <img class="media-object" src="content/series/237x147/malcolm.jpg" alt="blog-thumb">
+                <img class="media-object" src="/content/series/237x147/malcolm.jpg" alt="blog-thumb">
                 <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
             </div>
         </div>
@@ -43,7 +43,7 @@
     <div class="media margin-clear">
         <div class="media-left">
             <div class="overlay-container">
-                <img class="media-object" src="content/series/237x147/the-office.jpg" alt="blog-thumb">
+                <img class="media-object" src="/content/series/237x147/the-office.jpg" alt="blog-thumb">
                 <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
             </div>
         </div>

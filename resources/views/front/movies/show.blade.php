@@ -32,7 +32,8 @@
         <div class="light-gray-bg p-20 bordered clearfix">
             <span class="product price"><i class="icon-tag pr-10"></i>${{$movie->price}}</span>
             <div class="product elements-list pull-right clearfix">
-                <a id="addToCart" data-id="{{$movie->id}}" href="/agregar-al-carrito" class="margin-clear btn btn-default"><span class="fa fa-spin fa-spinner" style="display: none"></span> Agregar al carrito</a>
+                @php $disabled = (in_array($movie->id, session('cart'))) ? 'disabled' : ''; @endphp
+                <a id="addToCart" data-id="{{$movie->id}}" href="/agregar-al-carrito" class="margin-clear btn btn-default" {{ $disabled }}><span class="fa fa-spin fa-spinner" style="display: none"></span> Agregar al carrito</a>
             </div>
         </div>
 

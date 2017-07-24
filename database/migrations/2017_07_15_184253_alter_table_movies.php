@@ -14,7 +14,7 @@ class AlterTableMovies extends Migration
     public function up()
     {
         Schema::table('movies', function (Blueprint $table) {
-            $table->string('slug', 100)->unique();
+            $table->string('slug', 100)->nullable()->unique();
         });
     }
 

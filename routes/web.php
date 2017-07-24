@@ -65,17 +65,18 @@ Route::get('genero/{id}', 'GenreController@show');
 //películas
 Route::get('peliculas', 'MovieController@index');
 Route::get('pelicula/{slug}', 'MovieController@show');
-
-Route::get('session/test/{id}', function ($id) {
-
-    $carrito = session('cart');
-    if (!in_array($id, $carrito)) {
-        session()->push('cart', $id);
+Route::get('movies-slug', function () {
+    foreach (\App\Movie::all() as $movie) {
+        $movie->save();
     }
-    var_dump( session('cart') );
 });
-
 //----------------------------------------
+
+//carrito
+Route::get('carrito-de-compras', 'CartController@index');
+Route::get('comprar', 'CartController@checkout');
+Route::post('cart/add', 'CartController@add');
+//-----------
 
 //-----------
 //---ADMIN---
@@ -86,8 +87,6 @@ Route::get('admin/peliculas', 'Admin\PeliculasController@index');
 Route::get('admin/peliculas/create', 'Admin\PeliculasController@create');
 Route::post('admin/peliculas/create', 'Admin\PeliculasController@store');
 Route::get('admin/peliculas/{id}', 'Admin\PeliculasController@show');
-
-
 //-----------
 
 Auth::routes();

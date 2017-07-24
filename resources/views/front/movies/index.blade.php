@@ -4,6 +4,10 @@
 
 @section('description', 'Listado de películas')
 
+@section('head')
+    <link rel="canonical" href="{{url('peliculas')}}">
+@endsection
+
 @section('breadcrumb')
     <li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
     <li class="active">Películas</li>
